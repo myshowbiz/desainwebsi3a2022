@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css" rel />
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <!--Menu Atas-->
+        <nav class="navigation">
+            <ul class="nav">
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+                <li class=""><a href="index.html">Home</a></li>
+                <li class=""><a href="index.html">About</a></li>
+                <li class=""><a href="index.html">User</a></li>
+                <li style="float: right"><a href="index.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div style="margin: 10px;">
+            <h1>Tambah Data</h1>
+        </div>
+        <div class="form-add">
+            <form action="">
+                <label for="nim">NIM: </label>
+                <input type="text" name="nim" placeholder="Masukan NIM">
+                
+                <label for="nama">Nama: </label>
+                <input type="text" name="nama" placeholder="Masukan Nama">
+                
+                <label for="">Jenis Kelamin</label>
+                <p class="check-container">
+                    <input type="radio" name=" radio" id="" checked="checked">
+                    Laki-Laki
+                </p>
+                <p class="check-container">
+                    <input type="radio" name=" radio" id="" checked="checked">
+                    Perempuan
+                </p>
+
+                <label for="nilai">Nilai: </label>
+                <input type="text" name="nilai" placeholder="Masukan Nilai">
+                
+                <label for="nilai">Grade </label>
+                <select name="grade" id="">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+
+                <label for="">Prestasi</label>
+                <p class="check-container">
+                    <input type="checkbox" name="checkbox" id="" checked="checked">
+                    Event Nasional
+                </p>
+                <p class="check-container">
+                    <input type="checkbox" name="checkbox" id="">
+                    Event Internasional
+                </p>
+
+                <label for="tanggal">Tanggal</label>
+                <input type="date" name="nilai">
+
+                <label for="tanggal">Foto</label>
+                <input type="file" name="nilai">
+
+                <label for="tanggal">Text Area</label>
+                <textarea>
+                    Alamat
+                </textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

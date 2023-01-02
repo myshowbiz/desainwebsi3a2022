@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css" rel />
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <!--Menu Atas-->
+        <nav class="navigation">
+            <ul class="nav">
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-house"></i>
+                    </a>
+                </li>
+                <li class=""><a href="index.html">Home</a></li>
+                <li class=""><a href="index.html">About</a></li>
+                <li class=""><a href="index.html">User</a></li>
+                <li style="float: right"><a href="index.html">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <div class="flex-container">
+                <div class="flex-item flex-red">
+                    <i class="fa fa-user"></i>
+                    <h2>100</h2>
+                    <p>Dosen</p>
+                </div>
+                <div class="flex-item flex-black">
+                    <i class="fa fa-award"></i>
+                    <h2>1000</h2>
+                    <p>Awards</p>
+                </div>
+                <div class="flex-item flex-reddark">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h2>2000</h2>
+                    <p>Alumni</p>
+                </div>
+                <div class="flex-item flex-red-late">
+                    <i class="fa fa-handshake"></i>
+                    <h2>100</h2>
+                    <p>Kerjasama</p>
+                </div>
+            </div>
+
+            <div>
+                <button class="btn" style="float: right;">
+                    <a href="tambahdata.html">Tambah Data</a>
+                </button>
+            </div>
+
+            <h1 style="margin-top: 10px">Tabel Mahasiswa</h1>
+
+            <div style="overflow-x: auto; width: 100%">
+                <table id="mahasiswa">
+                    <tr>
+                        <th>No</th>
+                        <th>Foto</th>
+                        <th>NIM</th>
+                        <th>Nama</th>
+                        <th>Nilai</th>
+                        <th>Grade</th>
+                        <th>Aksi</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img src="https://img.icons8.com/doodle/48/null/user-male-circle.png" width="50" />
+                        </td>
+                        <td>1923562541</td>
+                        <td>Ganjar</td>
+                        <td>90</td>
+                        <td>A</td>
+                        <td>
+                            <button class="btn">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+
+                            <button class="btn btn2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img src="https://img.icons8.com/doodle/48/null/user-male-circle.png" width="50" />
+                        </td>
+                        <td>1923562542</td>
+                        <td>Pijar Aje</td>
+                        <td>90</td>
+                        <td>A</td>
+                        <td>
+                            <button class="btn">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+
+                            <button class="btn btn2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <img src="https://img.icons8.com/doodle/48/null/user-male-circle.png" width="50" />
+                        </td>
+                        <td>1923562543</td>
+                        <td>Bayu</td>
+                        <td>90</td>
+                        <td>A</td>
+                        <td>
+                            <button class="btn">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+
+                            <button class="btn btn2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <img src="https://img.icons8.com/doodle/48/null/user-male-circle.png" width="50" />
+                        </td>
+                        <td>1923562544</td>
+                        <td>Artanto</td>
+                        <td>90</td>
+                        <td>A</td>
+                        <td>
+                            <button class="btn">
+                                <a href="tambahdata.html">Ubah</a>
+                            </button>
+
+                            <button class="btn btn2">
+                                <a href="tambahdata.html">Hapus</a>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
